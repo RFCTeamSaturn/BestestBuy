@@ -3,7 +3,7 @@ import './app.scss';
 import Header from './header/Header';
 import ProductOverview from './overview/ProductOverview';
 import RelatedProducts from './relatedProducts/RelatedProducts';
-import QuestionsAndAnswers from './Q_and_A/QuestionsAndAnswers';
+import QuestionsList from './Q&A/QuestionsList';
 import RatingsAndReviews from './R&R/RatingsAndReviews';
 
 class App extends React.Component {
@@ -19,7 +19,7 @@ class App extends React.Component {
         <Header />
         <div><ProductOverview /></div>
         <div><RelatedProducts /></div>
-        <div><QuestionsAndAnswers /></div>
+        <div><QuestionsList /></div>
         <div><RatingsAndReviews /></div>
       </div>
     );
